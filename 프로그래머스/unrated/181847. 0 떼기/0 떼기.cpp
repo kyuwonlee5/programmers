@@ -13,3 +13,22 @@ string solution(string n_str) {
     }
     return answer;
 }
+
+/*
+string solution(string n_str) {
+    int offset = 0;
+    for(int i = 0; i < n_str.size(); ++i)
+    {
+        if(n_str[i] == '0')
+        {
+            offset++;
+        }
+        else
+        {
+            break;
+        }
+    }
+
+    return n_str.substr(offset);
+}
+*/
