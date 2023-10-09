@@ -11,3 +11,14 @@ string solution(string myString) {
     }
     return myString;
 }
+
+/*
+    string solution(string myString) {
+    string answer = "";
+    for(int i=0;i<myString.size();i++)
+    {
+        if(myString[i] < 'l') myString[i] = 'l';
+    }
+    return myString;
+}
+*/
